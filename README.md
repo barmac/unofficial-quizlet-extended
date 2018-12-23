@@ -1,6 +1,6 @@
 # Unofficial Quizlet Extended
 
-This project is a [Google Chrome][https://www.google.com/chrome/] extension which extends or modifies behavior of [Quizlet][https://quizlet.com] web app. This extension is 100% unofficial and I do not hold any rights to any part of Quizlet website.
+This project is a [Google Chrome](https://www.google.com/chrome/) extension which extends or modifies behavior of [Quizlet](https://quizlet.com) web app. This extension is 100% unofficial and I do not hold any rights to any part of Quizlet website.
 
 Current features modify dictionary edit page in the following manner:
 
@@ -19,7 +19,7 @@ Built with [Rollup](https://github.com/rollup/rollup).
 
 ### Prerequisites
 
-[Node.js][https://nodejs.org] and your favorite package manager, e.g. [npm][https://www.npmjs.com/].
+[Node.js](https://nodejs.org) and your favorite package manager, e.g. [npm](https://www.npmjs.com/).
 
 ### Setting up Dev
 
