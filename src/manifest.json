@@ -1,0 +1,13 @@
+{
+  "name": "Unofficial Quizlet Extended",
+  "version": "0.1.0",
+  "description": "Extend or change behavior of Quizlet web app",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": ["https://quizlet.com/*/edit"],
+      "css": ["edit/style.css"],
+      "js": ["edit/script.js"]
+    }
+  ]
+}

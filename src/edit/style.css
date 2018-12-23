@@ -1,0 +1,8 @@
+.TermRows>div:first-child {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.UIIcon--foot {
+  font-size: 1.25em;
+}

@@ -1,0 +1,22 @@
+{
+  "name": "unofficial-quizlet-extended",
+  "version": "0.1.0",
+  "description": "Extend or change behavior of Quizlet web app",
+  "main": "index.js",
+  "scripts": {
+    "all": "npm run clean && npm run build",
+    "clean": "rm -rf build/*",
+    "build": "mkdir -p build && rollup -c && cp src/manifest.json build/manifest.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Maciej Barelkowski",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-proposal-class-properties": "^7.2.3",
+    "rollup": "^0.67.4",
+    "rollup-plugin-babel": "^4.1.0",
+    "rollup-plugin-css-only": "^0.4.0"
+  }
+}
